@@ -1,11 +1,11 @@
-package ordered_map
+package omap
 
 import (
 	"testing"
 )
 
 func testString() []string {
-	var data []string = make([]string, 5)
+	var data = make([]string, 5)
 	data[0] = "test0"
 	data[1] = "test1"
 	data[2] = "test2"

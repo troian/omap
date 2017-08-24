@@ -1,8 +1,9 @@
-package ordered_map
+package omap
 
 import (
-	"fmt"
 	"bytes"
+
+	"fmt"
 )
 
 type node struct {
